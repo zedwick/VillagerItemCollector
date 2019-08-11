@@ -28,13 +28,72 @@ scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"
 scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc = total vic_breadc
 scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc -= @s vic_breadc
 #scoreboard players set over vic_breadc 0
-#At this point vic_breadc score of both villager and item are the number of items they should have in thier stack.
-#do a tedious and repetative method in order to actually set this, booooo.
+#At this point vic_breadc score of both villager and item are the number of items they should have in their stack.
+#do a tedious and repetitive method in order to actually set this, booooo.
 replaceitem entity @s[scores={vic_breadc=1}] villager.0 bread 1
 replaceitem entity @s[scores={vic_breadc=2}] villager.0 bread 2
 replaceitem entity @s[scores={vic_breadc=3}] villager.0 bread 3
 replaceitem entity @s[scores={vic_breadc=4}] villager.0 bread 4
 replaceitem entity @s[scores={vic_breadc=5}] villager.0 bread 5
+replaceitem entity @s[scores={vic_breadc=6}] villager.0 bread 6
+replaceitem entity @s[scores={vic_breadc=7}] villager.0 bread 7
+replaceitem entity @s[scores={vic_breadc=8}] villager.0 bread 8
+replaceitem entity @s[scores={vic_breadc=9}] villager.0 bread 9
+replaceitem entity @s[scores={vic_breadc=10}] villager.0 bread 10
+replaceitem entity @s[scores={vic_breadc=11}] villager.0 bread 11
+replaceitem entity @s[scores={vic_breadc=12}] villager.0 bread 12
+replaceitem entity @s[scores={vic_breadc=13}] villager.0 bread 13
+replaceitem entity @s[scores={vic_breadc=14}] villager.0 bread 14
+replaceitem entity @s[scores={vic_breadc=15}] villager.0 bread 15
+replaceitem entity @s[scores={vic_breadc=16}] villager.0 bread 16
+replaceitem entity @s[scores={vic_breadc=17}] villager.0 bread 17
+replaceitem entity @s[scores={vic_breadc=18}] villager.0 bread 18
+replaceitem entity @s[scores={vic_breadc=19}] villager.0 bread 19
+replaceitem entity @s[scores={vic_breadc=20}] villager.0 bread 20
+replaceitem entity @s[scores={vic_breadc=21}] villager.0 bread 21
+replaceitem entity @s[scores={vic_breadc=22}] villager.0 bread 22
+replaceitem entity @s[scores={vic_breadc=23}] villager.0 bread 23
+replaceitem entity @s[scores={vic_breadc=24}] villager.0 bread 24
+replaceitem entity @s[scores={vic_breadc=25}] villager.0 bread 25
+replaceitem entity @s[scores={vic_breadc=26}] villager.0 bread 26
+replaceitem entity @s[scores={vic_breadc=27}] villager.0 bread 27
+replaceitem entity @s[scores={vic_breadc=28}] villager.0 bread 28
+replaceitem entity @s[scores={vic_breadc=29}] villager.0 bread 29
+replaceitem entity @s[scores={vic_breadc=30}] villager.0 bread 30
+replaceitem entity @s[scores={vic_breadc=31}] villager.0 bread 31
+replaceitem entity @s[scores={vic_breadc=32}] villager.0 bread 32
+replaceitem entity @s[scores={vic_breadc=33}] villager.0 bread 33
+replaceitem entity @s[scores={vic_breadc=34}] villager.0 bread 34
+replaceitem entity @s[scores={vic_breadc=35}] villager.0 bread 35
+replaceitem entity @s[scores={vic_breadc=36}] villager.0 bread 36
+replaceitem entity @s[scores={vic_breadc=37}] villager.0 bread 37
+replaceitem entity @s[scores={vic_breadc=38}] villager.0 bread 38
+replaceitem entity @s[scores={vic_breadc=39}] villager.0 bread 39
+replaceitem entity @s[scores={vic_breadc=40}] villager.0 bread 40
+replaceitem entity @s[scores={vic_breadc=41}] villager.0 bread 41
+replaceitem entity @s[scores={vic_breadc=42}] villager.0 bread 42
+replaceitem entity @s[scores={vic_breadc=43}] villager.0 bread 43
+replaceitem entity @s[scores={vic_breadc=44}] villager.0 bread 44
+replaceitem entity @s[scores={vic_breadc=45}] villager.0 bread 45
+replaceitem entity @s[scores={vic_breadc=46}] villager.0 bread 46
+replaceitem entity @s[scores={vic_breadc=47}] villager.0 bread 47
+replaceitem entity @s[scores={vic_breadc=48}] villager.0 bread 48
+replaceitem entity @s[scores={vic_breadc=49}] villager.0 bread 49
+replaceitem entity @s[scores={vic_breadc=50}] villager.0 bread 50
+replaceitem entity @s[scores={vic_breadc=51}] villager.0 bread 51
+replaceitem entity @s[scores={vic_breadc=52}] villager.0 bread 52
+replaceitem entity @s[scores={vic_breadc=53}] villager.0 bread 53
+replaceitem entity @s[scores={vic_breadc=54}] villager.0 bread 54
+replaceitem entity @s[scores={vic_breadc=55}] villager.0 bread 55
+replaceitem entity @s[scores={vic_breadc=56}] villager.0 bread 56
+replaceitem entity @s[scores={vic_breadc=57}] villager.0 bread 57
+replaceitem entity @s[scores={vic_breadc=58}] villager.0 bread 58
+replaceitem entity @s[scores={vic_breadc=59}] villager.0 bread 59
+replaceitem entity @s[scores={vic_breadc=60}] villager.0 bread 60
+replaceitem entity @s[scores={vic_breadc=61}] villager.0 bread 61
+replaceitem entity @s[scores={vic_breadc=62}] villager.0 bread 62
+replaceitem entity @s[scores={vic_breadc=63}] villager.0 bread 63
+replaceitem entity @s[scores={vic_breadc=64}] villager.0 bread 64
 #
 #do an equally tedious and boring method to set the item stack size as well boooooo.
 data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=0}] {Item:{id:"minecraft:bread",Count:0b}}
