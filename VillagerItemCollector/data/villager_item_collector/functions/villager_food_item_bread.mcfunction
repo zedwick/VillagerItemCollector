@@ -18,7 +18,7 @@ execute as @s store result score @s vic_breadc run data get entity @s Inventory[
 execute as @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] store result score @s vic_breadc run data get entity @s Item.Count 1
 #
 #now we have the item stack size of both villager and item in the scoreboard. Do operations.
-run scoreboard players operation @s vic_breadc += @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc
+scoreboard players operation @s vic_breadc += @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc
 scoreboard players operation total vic_breadc = @s vic_breadc
 scoreboard players operation over vic_breadc = @s vic_breadc
 scoreboard players operation over vic_breadc -= 64 vic_constants
