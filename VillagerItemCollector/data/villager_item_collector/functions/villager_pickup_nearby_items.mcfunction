@@ -15,5 +15,5 @@ execute as @e[type=item,distance=..1,nbt={PickupDelay:0s}] run function villager
 execute at @e[type=item,distance=..1,tag=vic_villagerfood,limit=1] run function villager_item_collector:villager_food_item
 #
 #Add vic_done tag to the villager
-execute at @s run particle minecraft:crit ~ ~4 ~ 0.1 0.1 0.1 0.01 5 normal
+#execute at @s run particle minecraft:crit ~ ~4 ~ 0.1 0.1 0.1 0.01 5 normal
 tag @s add vic_done
