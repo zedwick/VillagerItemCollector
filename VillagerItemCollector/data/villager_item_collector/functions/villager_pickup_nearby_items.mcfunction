@@ -9,7 +9,7 @@
 #
 
 # find nearby items and tag them with "villagerfood"
-execute as @e[type=item,distance=..1] run function villageritemcollector:nearby_item
+execute as @e[type=item,distance=..1] run function villager_item_collector:nearby_item
 
 # execute at item (so we can use @e[type=minecraft:item,distance=0] and still target the villager with @s)
-execute at @e[type=item,distance=..1,tag=vic_villagerfood] run function villageritemcollector:villager_food_item
+execute at @e[type=item,distance=..1,tag=vic_villagerfood] run function villager_item_collector:villager_food_item
