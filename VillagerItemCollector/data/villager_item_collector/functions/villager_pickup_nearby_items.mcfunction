@@ -7,9 +7,13 @@
 # Slot villager.2: potato
 # Slot villager.3: beetroot
 #
-
+#
 # find nearby items and tag them with "villagerfood"
 execute as @e[type=item,distance=..1] run function villager_item_collector:nearby_item
-
+#
 # execute at item (so we can use @e[type=minecraft:item,distance=0] and still target the villager with @s)
 execute at @e[type=item,distance=..1,tag=vic_villagerfood,limit=1] run function villager_item_collector:villager_food_item
+#
+#Add vic_done tag to the villager
+execute at @s run particle minecraft:crit ~ ~4 ~ 0.1 0.1 0.1 0.01 5 normal
+tag @s add vic_done
