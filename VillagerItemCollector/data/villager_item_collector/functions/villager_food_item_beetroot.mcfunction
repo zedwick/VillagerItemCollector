@@ -5,12 +5,12 @@
 # Villager: @s
 # Item:     @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:beetroot"}}]
 #
-# Slot villager.0: beetroot
+# Slot villager.3: beetroot
 #
 #
 # First obtain amount of beetroot the villager has. Only in slot 0, as beetroot will only be put here.
 #
-execute as @s store result score @s vic_beetrootc run data get entity @s Inventory[0].Count 1
+execute as @s store result score @s vic_beetrootc run data get entity @s Inventory[3].Count 1
 #
 #also obtain size of item stack.
 #
@@ -29,70 +29,70 @@ scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"
 #scoreboard players set over vic_beetrootc 0
 #At this point vic_beetrootc score of both villager and item are the number of items they should have in their stack.
 #do a tedious and repetitive method in order to actually set this, booooo.
-replaceitem entity @s[scores={vic_beetrootc=1}] villager.0 beetroot 1
-replaceitem entity @s[scores={vic_beetrootc=2}] villager.0 beetroot 2
-replaceitem entity @s[scores={vic_beetrootc=3}] villager.0 beetroot 3
-replaceitem entity @s[scores={vic_beetrootc=4}] villager.0 beetroot 4
-replaceitem entity @s[scores={vic_beetrootc=5}] villager.0 beetroot 5
-replaceitem entity @s[scores={vic_beetrootc=6}] villager.0 beetroot 6
-replaceitem entity @s[scores={vic_beetrootc=7}] villager.0 beetroot 7
-replaceitem entity @s[scores={vic_beetrootc=8}] villager.0 beetroot 8
-replaceitem entity @s[scores={vic_beetrootc=9}] villager.0 beetroot 9
-replaceitem entity @s[scores={vic_beetrootc=10}] villager.0 beetroot 10
-replaceitem entity @s[scores={vic_beetrootc=11}] villager.0 beetroot 11
-replaceitem entity @s[scores={vic_beetrootc=12}] villager.0 beetroot 12
-replaceitem entity @s[scores={vic_beetrootc=13}] villager.0 beetroot 13
-replaceitem entity @s[scores={vic_beetrootc=14}] villager.0 beetroot 14
-replaceitem entity @s[scores={vic_beetrootc=15}] villager.0 beetroot 15
-replaceitem entity @s[scores={vic_beetrootc=16}] villager.0 beetroot 16
-replaceitem entity @s[scores={vic_beetrootc=17}] villager.0 beetroot 17
-replaceitem entity @s[scores={vic_beetrootc=18}] villager.0 beetroot 18
-replaceitem entity @s[scores={vic_beetrootc=19}] villager.0 beetroot 19
-replaceitem entity @s[scores={vic_beetrootc=20}] villager.0 beetroot 20
-replaceitem entity @s[scores={vic_beetrootc=21}] villager.0 beetroot 21
-replaceitem entity @s[scores={vic_beetrootc=22}] villager.0 beetroot 22
-replaceitem entity @s[scores={vic_beetrootc=23}] villager.0 beetroot 23
-replaceitem entity @s[scores={vic_beetrootc=24}] villager.0 beetroot 24
-replaceitem entity @s[scores={vic_beetrootc=25}] villager.0 beetroot 25
-replaceitem entity @s[scores={vic_beetrootc=26}] villager.0 beetroot 26
-replaceitem entity @s[scores={vic_beetrootc=27}] villager.0 beetroot 27
-replaceitem entity @s[scores={vic_beetrootc=28}] villager.0 beetroot 28
-replaceitem entity @s[scores={vic_beetrootc=29}] villager.0 beetroot 29
-replaceitem entity @s[scores={vic_beetrootc=30}] villager.0 beetroot 30
-replaceitem entity @s[scores={vic_beetrootc=31}] villager.0 beetroot 31
-replaceitem entity @s[scores={vic_beetrootc=32}] villager.0 beetroot 32
-replaceitem entity @s[scores={vic_beetrootc=33}] villager.0 beetroot 33
-replaceitem entity @s[scores={vic_beetrootc=34}] villager.0 beetroot 34
-replaceitem entity @s[scores={vic_beetrootc=35}] villager.0 beetroot 35
-replaceitem entity @s[scores={vic_beetrootc=36}] villager.0 beetroot 36
-replaceitem entity @s[scores={vic_beetrootc=37}] villager.0 beetroot 37
-replaceitem entity @s[scores={vic_beetrootc=38}] villager.0 beetroot 38
-replaceitem entity @s[scores={vic_beetrootc=39}] villager.0 beetroot 39
-replaceitem entity @s[scores={vic_beetrootc=40}] villager.0 beetroot 40
-replaceitem entity @s[scores={vic_beetrootc=41}] villager.0 beetroot 41
-replaceitem entity @s[scores={vic_beetrootc=42}] villager.0 beetroot 42
-replaceitem entity @s[scores={vic_beetrootc=43}] villager.0 beetroot 43
-replaceitem entity @s[scores={vic_beetrootc=44}] villager.0 beetroot 44
-replaceitem entity @s[scores={vic_beetrootc=45}] villager.0 beetroot 45
-replaceitem entity @s[scores={vic_beetrootc=46}] villager.0 beetroot 46
-replaceitem entity @s[scores={vic_beetrootc=47}] villager.0 beetroot 47
-replaceitem entity @s[scores={vic_beetrootc=48}] villager.0 beetroot 48
-replaceitem entity @s[scores={vic_beetrootc=49}] villager.0 beetroot 49
-replaceitem entity @s[scores={vic_beetrootc=50}] villager.0 beetroot 50
-replaceitem entity @s[scores={vic_beetrootc=51}] villager.0 beetroot 51
-replaceitem entity @s[scores={vic_beetrootc=52}] villager.0 beetroot 52
-replaceitem entity @s[scores={vic_beetrootc=53}] villager.0 beetroot 53
-replaceitem entity @s[scores={vic_beetrootc=54}] villager.0 beetroot 54
-replaceitem entity @s[scores={vic_beetrootc=55}] villager.0 beetroot 55
-replaceitem entity @s[scores={vic_beetrootc=56}] villager.0 beetroot 56
-replaceitem entity @s[scores={vic_beetrootc=57}] villager.0 beetroot 57
-replaceitem entity @s[scores={vic_beetrootc=58}] villager.0 beetroot 58
-replaceitem entity @s[scores={vic_beetrootc=59}] villager.0 beetroot 59
-replaceitem entity @s[scores={vic_beetrootc=60}] villager.0 beetroot 60
-replaceitem entity @s[scores={vic_beetrootc=61}] villager.0 beetroot 61
-replaceitem entity @s[scores={vic_beetrootc=62}] villager.0 beetroot 62
-replaceitem entity @s[scores={vic_beetrootc=63}] villager.0 beetroot 63
-replaceitem entity @s[scores={vic_beetrootc=64}] villager.0 beetroot 64
+replaceitem entity @s[scores={vic_beetrootc=1}] villager.3 beetroot 1
+replaceitem entity @s[scores={vic_beetrootc=2}] villager.3 beetroot 2
+replaceitem entity @s[scores={vic_beetrootc=3}] villager.3 beetroot 3
+replaceitem entity @s[scores={vic_beetrootc=4}] villager.3 beetroot 4
+replaceitem entity @s[scores={vic_beetrootc=5}] villager.3 beetroot 5
+replaceitem entity @s[scores={vic_beetrootc=6}] villager.3 beetroot 6
+replaceitem entity @s[scores={vic_beetrootc=7}] villager.3 beetroot 7
+replaceitem entity @s[scores={vic_beetrootc=8}] villager.3 beetroot 8
+replaceitem entity @s[scores={vic_beetrootc=9}] villager.3 beetroot 9
+replaceitem entity @s[scores={vic_beetrootc=10}] villager.3 beetroot 10
+replaceitem entity @s[scores={vic_beetrootc=11}] villager.3 beetroot 11
+replaceitem entity @s[scores={vic_beetrootc=12}] villager.3 beetroot 12
+replaceitem entity @s[scores={vic_beetrootc=13}] villager.3 beetroot 13
+replaceitem entity @s[scores={vic_beetrootc=14}] villager.3 beetroot 14
+replaceitem entity @s[scores={vic_beetrootc=15}] villager.3 beetroot 15
+replaceitem entity @s[scores={vic_beetrootc=16}] villager.3 beetroot 16
+replaceitem entity @s[scores={vic_beetrootc=17}] villager.3 beetroot 17
+replaceitem entity @s[scores={vic_beetrootc=18}] villager.3 beetroot 18
+replaceitem entity @s[scores={vic_beetrootc=19}] villager.3 beetroot 19
+replaceitem entity @s[scores={vic_beetrootc=20}] villager.3 beetroot 20
+replaceitem entity @s[scores={vic_beetrootc=21}] villager.3 beetroot 21
+replaceitem entity @s[scores={vic_beetrootc=22}] villager.3 beetroot 22
+replaceitem entity @s[scores={vic_beetrootc=23}] villager.3 beetroot 23
+replaceitem entity @s[scores={vic_beetrootc=24}] villager.3 beetroot 24
+replaceitem entity @s[scores={vic_beetrootc=25}] villager.3 beetroot 25
+replaceitem entity @s[scores={vic_beetrootc=26}] villager.3 beetroot 26
+replaceitem entity @s[scores={vic_beetrootc=27}] villager.3 beetroot 27
+replaceitem entity @s[scores={vic_beetrootc=28}] villager.3 beetroot 28
+replaceitem entity @s[scores={vic_beetrootc=29}] villager.3 beetroot 29
+replaceitem entity @s[scores={vic_beetrootc=30}] villager.3 beetroot 30
+replaceitem entity @s[scores={vic_beetrootc=31}] villager.3 beetroot 31
+replaceitem entity @s[scores={vic_beetrootc=32}] villager.3 beetroot 32
+replaceitem entity @s[scores={vic_beetrootc=33}] villager.3 beetroot 33
+replaceitem entity @s[scores={vic_beetrootc=34}] villager.3 beetroot 34
+replaceitem entity @s[scores={vic_beetrootc=35}] villager.3 beetroot 35
+replaceitem entity @s[scores={vic_beetrootc=36}] villager.3 beetroot 36
+replaceitem entity @s[scores={vic_beetrootc=37}] villager.3 beetroot 37
+replaceitem entity @s[scores={vic_beetrootc=38}] villager.3 beetroot 38
+replaceitem entity @s[scores={vic_beetrootc=39}] villager.3 beetroot 39
+replaceitem entity @s[scores={vic_beetrootc=40}] villager.3 beetroot 40
+replaceitem entity @s[scores={vic_beetrootc=41}] villager.3 beetroot 41
+replaceitem entity @s[scores={vic_beetrootc=42}] villager.3 beetroot 42
+replaceitem entity @s[scores={vic_beetrootc=43}] villager.3 beetroot 43
+replaceitem entity @s[scores={vic_beetrootc=44}] villager.3 beetroot 44
+replaceitem entity @s[scores={vic_beetrootc=45}] villager.3 beetroot 45
+replaceitem entity @s[scores={vic_beetrootc=46}] villager.3 beetroot 46
+replaceitem entity @s[scores={vic_beetrootc=47}] villager.3 beetroot 47
+replaceitem entity @s[scores={vic_beetrootc=48}] villager.3 beetroot 48
+replaceitem entity @s[scores={vic_beetrootc=49}] villager.3 beetroot 49
+replaceitem entity @s[scores={vic_beetrootc=50}] villager.3 beetroot 50
+replaceitem entity @s[scores={vic_beetrootc=51}] villager.3 beetroot 51
+replaceitem entity @s[scores={vic_beetrootc=52}] villager.3 beetroot 52
+replaceitem entity @s[scores={vic_beetrootc=53}] villager.3 beetroot 53
+replaceitem entity @s[scores={vic_beetrootc=54}] villager.3 beetroot 54
+replaceitem entity @s[scores={vic_beetrootc=55}] villager.3 beetroot 55
+replaceitem entity @s[scores={vic_beetrootc=56}] villager.3 beetroot 56
+replaceitem entity @s[scores={vic_beetrootc=57}] villager.3 beetroot 57
+replaceitem entity @s[scores={vic_beetrootc=58}] villager.3 beetroot 58
+replaceitem entity @s[scores={vic_beetrootc=59}] villager.3 beetroot 59
+replaceitem entity @s[scores={vic_beetrootc=60}] villager.3 beetroot 60
+replaceitem entity @s[scores={vic_beetrootc=61}] villager.3 beetroot 61
+replaceitem entity @s[scores={vic_beetrootc=62}] villager.3 beetroot 62
+replaceitem entity @s[scores={vic_beetrootc=63}] villager.3 beetroot 63
+replaceitem entity @s[scores={vic_beetrootc=64}] villager.3 beetroot 64
 #
 #do an equally tedious and boring method to set the item stack size as well boooooo.
 data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:beetroot"}},scores={vic_beetrootc=0}] {Item:{id:"minecraft:beetroot",Count:0b}}
