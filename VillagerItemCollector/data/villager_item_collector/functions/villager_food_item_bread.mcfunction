@@ -28,7 +28,23 @@ scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"
 scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc = total vic_breadc
 scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc -= @s vic_breadc
 #scoreboard players set over vic_breadc 0
-#At this point if over = 0 stack should be deleted, if above 0 stack should be set to score vic_breadc for that stack.
+#At this point vic_breadc score of both villager and item are the number of items they should have in thier stack.
+#do a tedious and repetative method in order to actually set this, booooo.
+replaceitem entity @s[scores={vic_breadc=1}] villager.0 bread 1
+replaceitem entity @s[scores={vic_breadc=2}] villager.0 bread 2
+replaceitem entity @s[scores={vic_breadc=3}] villager.0 bread 3
+replaceitem entity @s[scores={vic_breadc=4}] villager.0 bread 4
+replaceitem entity @s[scores={vic_breadc=5}] villager.0 bread 5
+#
+#do an equally tedious and boring method to set the item stack size as well boooooo.
+data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=0}] {Item:{id:"minecraft:bread",Count:0b}}
+data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=1}] {Item:{id:"minecraft:bread",Count:1b}}
+data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=2}] {Item:{id:"minecraft:bread",Count:2b}}
+data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=3}] {Item:{id:"minecraft:bread",Count:3b}}
+data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=4}] {Item:{id:"minecraft:bread",Count:4b}}
+#
+#
+#
 # Is there room in the villager inventory?
 # if so, how much room and can we fit the whole item stack into it?
 # if we can, insert whole item stack count and kill item,
