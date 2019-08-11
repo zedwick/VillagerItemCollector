@@ -19,8 +19,5 @@ scoreboard players reset @s vic_carrotc
 scoreboard players reset @s vic_potatoc
 scoreboard players reset @s vic_beetrootc
 #
-#Add vic_done tag to the villager
-execute at @s run particle minecraft:crit ~ ~4 ~ 0.1 0.1 0.1 0.01 5 normal
-tag @s add vic_done
 # We could tidy up our vic_villagerfood tag here, but we probably don't need to.
 # tag remove @e[type=minecraft:item,distance=0] villagerfood
