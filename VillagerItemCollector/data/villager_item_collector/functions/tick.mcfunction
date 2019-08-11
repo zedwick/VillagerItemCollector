@@ -9,4 +9,5 @@
 #use replaceitem to give up to 64 items to the villager as entitydata doesn't work because LOGIC
 #remove items from the item stack
 #tidy up tags and scoreboard ready for next time
-execute as @e[type=villager,limit=1,sort=random] at @s run function villager_item_collector:villager_pickup_nearby_items
+execute as @e[type=villager,limit=1,tag=!vic_done] at @s run function villager_item_collector:villager_pickup_nearby_items
+execute unless entity @e[type=villager,tag!=vic_done] run tag @e[type=villager,tag=vic_done] remove vic_done
