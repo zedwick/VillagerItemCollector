@@ -12,6 +12,9 @@
 #
 # Which food type is it?
 execute if entity @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] run function villager_item_collector:villager_food_item_bread
+execute if entity @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:carrot"}}] run function villager_item_collector:villager_food_item_carrot
+execute if entity @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:potato"}}] run function villager_item_collector:villager_food_item_potato
+execute if entity @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:beetroot"}}] run function villager_item_collector:villager_food_item_beetroot
 #
 #tidy up scoreboard so it isn't full of villagers
 scoreboard players reset @s vic_breadc
