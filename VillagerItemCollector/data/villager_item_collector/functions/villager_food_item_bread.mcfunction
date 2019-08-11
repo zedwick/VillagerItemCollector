@@ -19,11 +19,15 @@ execute as @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}
 #
 #now we have the item stack size of both villager and item in the scoreboard. Do operations.
 execute as @s run scoreboard players operation @s vic_breadc += @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc
+scoreboard players operation total vic_breadc = @s vic_breadc
 scoreboard players operation over vic_breadc = @s vic_breadc
 scoreboard players operation over vic_breadc -= 64 vic_constants
 scoreboard players operation over vic_breadc > 0 vic_constants
 scoreboard players operation @s vic_breadc -= over vic_breadc
 scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc -= over vic_breadc
+scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc = total vic_breadc
+scoreboard players operation @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] vic_breadc -= @s vic_breadc
+#scoreboard players set over vic_breadc 0
 #At this point if over = 0 stack should be deleted, if above 0 stack should be set to score vic_breadc for that stack.
 # Is there room in the villager inventory?
 # if so, how much room and can we fit the whole item stack into it?
