@@ -7,6 +7,7 @@
 #
 # Slot villager.0: bread
 #
+say villager_food_item_bread function ran with the maths in it
 #
 # First obtain amount of bread the villager has. Only in slot 0, as bread will only be put here.
 #
