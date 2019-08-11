@@ -1,6 +1,5 @@
 # function villageritemcollector:nearby_item
-
-execute if entity @s[nbt={Item:{"id":"minecraft:bread"}}] run tag @s add vic_villagerfood
-execute if entity @s[nbt={Item:{"id":"minecraft:carrot"}}] run tag @s add vic_villagerfood
-execute if entity @s[nbt={Item:{"id":"minecraft:potato"}}] run tag @s add vic_villagerfood
-execute if entity @s[nbt={Item:{"id":"minecraft:beetroot"}}] run tag @s add vic_villagerfood
+tag @s[nbt={Item:{"id":"minecraft:bread"}}] add vic_villagerfood
+tag @s[nbt={Item:{"id":"minecraft:carrot"}}] add vic_villagerfood
+tag @s[nbt={Item:{"id":"minecraft:potato"}}] add vic_villagerfood
+tag @s[nbt={Item:{"id":"minecraft:beetroot"}}] add vic_villagerfood
