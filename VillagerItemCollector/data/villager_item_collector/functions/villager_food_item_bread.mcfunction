@@ -162,7 +162,7 @@ data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"min
 data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=63}] {Item:{id:"minecraft:bread",Count:63b}}
 data merge entity @e[limit=1,type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}},scores={vic_breadc=64}] {Item:{id:"minecraft:bread",Count:64b}}
 #
-scoreboard players tag @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] remove vic_villagerfood
+tag @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] remove vic_villagerfood
 #
 # Is there room in the villager inventory?
 # if so, how much room and can we fit the whole item stack into it?
