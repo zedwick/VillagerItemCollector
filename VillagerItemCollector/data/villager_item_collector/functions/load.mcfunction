@@ -5,3 +5,5 @@ scoreboard objectives add vic_potatoc dummy
 scoreboard objectives add vic_beetrootc dummy
 scoreboard objectives add vic_constants dummy
 scoreboard players set 64 vic_constants 64
+scoreboard players set 0 vic_constants 0
+
