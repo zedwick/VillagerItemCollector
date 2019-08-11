@@ -18,5 +18,8 @@ scoreboard players reset @s vic_breadc
 scoreboard players reset @s vic_carrotc
 scoreboard players reset @s vic_potatoc
 scoreboard players reset @s vic_beetrootc
+#
+#Add vic_done tag to the villager
+tag @s add vic_done
 # We could tidy up our vic_villagerfood tag here, but we probably don't need to.
 # tag remove @e[type=minecraft:item,distance=0] villagerfood
