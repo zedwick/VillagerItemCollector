@@ -10,7 +10,7 @@
 # Slot villager.2: potato
 # Slot villager.3: beetroot
 #
-
+say villager_food_item function ran to decide which kind of food it is
 # Which food type is it?
 execute if entity @e[type=minecraft:item,distance=0,nbt={Item:{"id":"minecraft:bread"}}] run function villageritemcollector:villager_food_item_bread
 
