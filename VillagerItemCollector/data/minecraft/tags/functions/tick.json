@@ -1,6 +1,6 @@
 {
     "replace": "false",
     "values": [
-        "villager_item_collector:tick",
+        "villager_item_collector:tick"
     ]
 }
