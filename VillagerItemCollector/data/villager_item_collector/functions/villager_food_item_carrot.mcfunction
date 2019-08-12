@@ -9,7 +9,7 @@
 #
 
 # First obtain amount of carrot the villager has. Only in slot 0, as carrot will only be put here.
-execute as @e[tag=vic_current] store result score @s vic_carrotc run data get entity @s Inventory[1].Count 1
+execute as @e[tag=vic_current] store result score @s vic_carrotc run data get entity @s Inventory[{"id":"minecraft:carrot"}].Count 1
 
 # Also obtain size of item stack.
 execute store result score @s vic_carrotc run data get entity @s Item.Count 1
