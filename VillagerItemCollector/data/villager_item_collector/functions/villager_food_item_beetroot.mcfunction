@@ -9,7 +9,7 @@
 #
 
 # First obtain amount of beetroot the villager has. Only in slot 0, as beetroot will only be put here.
-execute as @e[tag=vic_current] store result score @s vic_beetrootc run data get entity @s Inventory[3].Count 1
+execute as @e[tag=vic_current] store result score @s vic_beetrootc run data get entity @s Inventory[{"id":"minecraft:beetroot"}].Count 1
 
 # Also obtain size of item stack.
 execute store result score @s vic_beetrootc run data get entity @s Item.Count 1
