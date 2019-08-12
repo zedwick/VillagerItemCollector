@@ -12,8 +12,8 @@
 #
 
 # debug
-say Pre
-function villager_item_collector:debug/villager_and_item
+#say Pre
+#function villager_item_collector:debug/villager_and_item
 
 # Which food type is it?
 execute if entity @s[nbt={Item:{"id":"minecraft:bread"}}] run function villager_item_collector:villager_food_item_bread
@@ -22,8 +22,8 @@ execute if entity @s[nbt={Item:{"id":"minecraft:potato"}}] run function villager
 execute if entity @s[nbt={Item:{"id":"minecraft:beetroot"}}] run function villager_item_collector:villager_food_item_beetroot
 
 # We could tidy up our vic_villagerfood tag here, but we probably don't need to.
-tag @s remove villagerfood
+tag @s remove vic_villagerfood
 
 # debug
-say Post
-function villager_item_collector:debug/villager_and_item
+#say Post
+#function villager_item_collector:debug/villager_and_item
