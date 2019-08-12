@@ -1,9 +1,10 @@
 #function villager_item_collector:villager_food_item
 #
-# to be execute as a villager at an item tagged as villager food.
+# To be executed as an item tagged as villager food ("vic_villagerfood").
+# Adds this food item to the current villager's inventory (if there is room).
 #
 # Villager: @e[tag=vic_current,limit=1]
-# Item:      @s
+# Item:     @s
 #
 # Slot villager.0: bread
 # Slot villager.1: carrot
@@ -11,19 +12,20 @@
 # Slot villager.3: beetroot
 #
 
-# debug
+# Debug
 #say Pre
 #function villager_item_collector:debug/villager_and_item
 
-# Which food type is it?
+# Check if this villager has room in its inventory for this type of food,
+# and if so insert the food into their inventory.
 execute if entity @s[nbt={Item:{"id":"minecraft:bread"}}] run function villager_item_collector:villager_food_item_bread
 execute if entity @s[nbt={Item:{"id":"minecraft:carrot"}}] run function villager_item_collector:villager_food_item_carrot
 execute if entity @s[nbt={Item:{"id":"minecraft:potato"}}] run function villager_item_collector:villager_food_item_potato
 execute if entity @s[nbt={Item:{"id":"minecraft:beetroot"}}] run function villager_item_collector:villager_food_item_beetroot
 
-# We could tidy up our vic_villagerfood tag here, but we probably don't need to.
+# Tidy up the "vic_villagerfood" tag from this item.
 tag @s remove vic_villagerfood
 
-# debug
+# Debug
 #say Post
 #function villager_item_collector:debug/villager_and_item

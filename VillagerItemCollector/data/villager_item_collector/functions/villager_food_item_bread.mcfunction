@@ -1,6 +1,6 @@
 #function villager_item_collector:villager_food_item_bread
 #
-# to be execute as a villager at an item tagged as villagerfood which is bread.
+# To be execute as an item tagged as "vic_villagerfood", which is bread.
 #
 # Villager: @e[tag=vic_current]
 # Item:     @s
@@ -162,9 +162,3 @@ data merge entity @s[scores={vic_breadc=61}] {Item:{id:"minecraft:bread",Count:6
 data merge entity @s[scores={vic_breadc=62}] {Item:{id:"minecraft:bread",Count:62b}}
 data merge entity @s[scores={vic_breadc=63}] {Item:{id:"minecraft:bread",Count:63b}}
 data merge entity @s[scores={vic_breadc=64}] {Item:{id:"minecraft:bread",Count:64b}}
-
-# Is there room in the villager inventory?
-# if so, how much room and can we fit the whole item stack into it?
-# if we can, insert whole item stack count and kill item,
-# otherwise add what you need to villager
-# and take what you need from the item stack
