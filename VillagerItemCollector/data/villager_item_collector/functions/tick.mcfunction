@@ -5,7 +5,7 @@
 
 # Iterates through all villagers currently loaded across the server, limited to 10 villagers per tick.
 # Once we are finished with a villager, they are marked with the tag "vic_done".
-execute as @e[type=villager,limit=10,tag=!vic_done] at @s run function villager_item_collector:villager_pickup_nearby_items
+execute as @e[type=villager,limit=10,tag=!vic_done,sort=random] at @s run function villager_item_collector:villager_pickup_nearby_items
 
 # If there are no villagers left who do not have the tag "vic_done",
 # then we know we have finished iterating through all currently loaded villagers.
