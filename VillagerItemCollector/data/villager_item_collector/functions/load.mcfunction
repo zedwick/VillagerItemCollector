@@ -21,3 +21,11 @@ scoreboard objectives add vic_constants dummy
 scoreboard players set 64 vic_constants 64
 scoreboard players set 1 vic_constants 1
 scoreboard players set 0 vic_constants 0
+
+# Schedule villager_item_collector:check_all_villagers to run
+# after a delay, as we are unlikely to need it to run immediately
+# after server start; likely better to leave CPU cycles for other
+# start up duties.
+# This function will schedule itself to run repeatedly after this.
+#
+schedule function villager_item_collector:check_all_villagers 10s
