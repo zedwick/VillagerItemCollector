@@ -97,7 +97,7 @@ replaceitem entity @e[tag=vic_current,scores={vic_potatoc=63}] villager.2 potato
 replaceitem entity @e[tag=vic_current,scores={vic_potatoc=64}] villager.2 potato 64
 
 # Do an equally tedious and boring method to set the item stack size as well boooooo.
-data merge entity @s[scores={vic_potatoc=0}] {Item:{id:"minecraft:potato",Count:0b}}
+kill @s[scores={vic_potatoc=0}]
 data merge entity @s[scores={vic_potatoc=1}] {Item:{id:"minecraft:potato",Count:1b}}
 data merge entity @s[scores={vic_potatoc=2}] {Item:{id:"minecraft:potato",Count:2b}}
 data merge entity @s[scores={vic_potatoc=3}] {Item:{id:"minecraft:potato",Count:3b}}
