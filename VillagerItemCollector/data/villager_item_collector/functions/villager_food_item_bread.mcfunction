@@ -31,70 +31,70 @@ scoreboard players operation @s vic_breadc -= @e[tag=vic_current] vic_breadc
 #
 
 # Do a tedious and repetitive method in order to actually set this, booooo.
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=1}] villager.0 bread 1
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=2}] villager.0 bread 2
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=3}] villager.0 bread 3
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=4}] villager.0 bread 4
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=5}] villager.0 bread 5
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=6}] villager.0 bread 6
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=7}] villager.0 bread 7
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=8}] villager.0 bread 8
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=9}] villager.0 bread 9
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=10}] villager.0 bread 10
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=11}] villager.0 bread 11
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=12}] villager.0 bread 12
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=13}] villager.0 bread 13
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=14}] villager.0 bread 14
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=15}] villager.0 bread 15
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=16}] villager.0 bread 16
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=17}] villager.0 bread 17
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=18}] villager.0 bread 18
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=19}] villager.0 bread 19
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=20}] villager.0 bread 20
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=21}] villager.0 bread 21
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=22}] villager.0 bread 22
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=23}] villager.0 bread 23
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=24}] villager.0 bread 24
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=25}] villager.0 bread 25
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=26}] villager.0 bread 26
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=27}] villager.0 bread 27
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=28}] villager.0 bread 28
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=29}] villager.0 bread 29
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=30}] villager.0 bread 30
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=31}] villager.0 bread 31
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=32}] villager.0 bread 32
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=33}] villager.0 bread 33
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=34}] villager.0 bread 34
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=35}] villager.0 bread 35
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=36}] villager.0 bread 36
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=37}] villager.0 bread 37
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=38}] villager.0 bread 38
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=39}] villager.0 bread 39
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=40}] villager.0 bread 40
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=41}] villager.0 bread 41
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=42}] villager.0 bread 42
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=43}] villager.0 bread 43
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=44}] villager.0 bread 44
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=45}] villager.0 bread 45
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=46}] villager.0 bread 46
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=47}] villager.0 bread 47
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=48}] villager.0 bread 48
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=49}] villager.0 bread 49
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=50}] villager.0 bread 50
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=51}] villager.0 bread 51
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=52}] villager.0 bread 52
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=53}] villager.0 bread 53
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=54}] villager.0 bread 54
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=55}] villager.0 bread 55
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=56}] villager.0 bread 56
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=57}] villager.0 bread 57
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=58}] villager.0 bread 58
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=59}] villager.0 bread 59
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=60}] villager.0 bread 60
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=61}] villager.0 bread 61
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=62}] villager.0 bread 62
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=63}] villager.0 bread 63
-replaceitem entity @e[tag=vic_current,scores={vic_breadc=64}] villager.0 bread 64
+item replace entity @e[tag=vic_current,scores={vic_breadc=1}] villager.0 with bread 1
+item replace entity @e[tag=vic_current,scores={vic_breadc=2}] villager.0 with bread 2
+item replace entity @e[tag=vic_current,scores={vic_breadc=3}] villager.0 with bread 3
+item replace entity @e[tag=vic_current,scores={vic_breadc=4}] villager.0 with bread 4
+item replace entity @e[tag=vic_current,scores={vic_breadc=5}] villager.0 with bread 5
+item replace entity @e[tag=vic_current,scores={vic_breadc=6}] villager.0 with bread 6
+item replace entity @e[tag=vic_current,scores={vic_breadc=7}] villager.0 with bread 7
+item replace entity @e[tag=vic_current,scores={vic_breadc=8}] villager.0 with bread 8
+item replace entity @e[tag=vic_current,scores={vic_breadc=9}] villager.0 with bread 9
+item replace entity @e[tag=vic_current,scores={vic_breadc=10}] villager.0 with bread 10
+item replace entity @e[tag=vic_current,scores={vic_breadc=11}] villager.0 with bread 11
+item replace entity @e[tag=vic_current,scores={vic_breadc=12}] villager.0 with bread 12
+item replace entity @e[tag=vic_current,scores={vic_breadc=13}] villager.0 with bread 13
+item replace entity @e[tag=vic_current,scores={vic_breadc=14}] villager.0 with bread 14
+item replace entity @e[tag=vic_current,scores={vic_breadc=15}] villager.0 with bread 15
+item replace entity @e[tag=vic_current,scores={vic_breadc=16}] villager.0 with bread 16
+item replace entity @e[tag=vic_current,scores={vic_breadc=17}] villager.0 with bread 17
+item replace entity @e[tag=vic_current,scores={vic_breadc=18}] villager.0 with bread 18
+item replace entity @e[tag=vic_current,scores={vic_breadc=19}] villager.0 with bread 19
+item replace entity @e[tag=vic_current,scores={vic_breadc=20}] villager.0 with bread 20
+item replace entity @e[tag=vic_current,scores={vic_breadc=21}] villager.0 with bread 21
+item replace entity @e[tag=vic_current,scores={vic_breadc=22}] villager.0 with bread 22
+item replace entity @e[tag=vic_current,scores={vic_breadc=23}] villager.0 with bread 23
+item replace entity @e[tag=vic_current,scores={vic_breadc=24}] villager.0 with bread 24
+item replace entity @e[tag=vic_current,scores={vic_breadc=25}] villager.0 with bread 25
+item replace entity @e[tag=vic_current,scores={vic_breadc=26}] villager.0 with bread 26
+item replace entity @e[tag=vic_current,scores={vic_breadc=27}] villager.0 with bread 27
+item replace entity @e[tag=vic_current,scores={vic_breadc=28}] villager.0 with bread 28
+item replace entity @e[tag=vic_current,scores={vic_breadc=29}] villager.0 with bread 29
+item replace entity @e[tag=vic_current,scores={vic_breadc=30}] villager.0 with bread 30
+item replace entity @e[tag=vic_current,scores={vic_breadc=31}] villager.0 with bread 31
+item replace entity @e[tag=vic_current,scores={vic_breadc=32}] villager.0 with bread 32
+item replace entity @e[tag=vic_current,scores={vic_breadc=33}] villager.0 with bread 33
+item replace entity @e[tag=vic_current,scores={vic_breadc=34}] villager.0 with bread 34
+item replace entity @e[tag=vic_current,scores={vic_breadc=35}] villager.0 with bread 35
+item replace entity @e[tag=vic_current,scores={vic_breadc=36}] villager.0 with bread 36
+item replace entity @e[tag=vic_current,scores={vic_breadc=37}] villager.0 with bread 37
+item replace entity @e[tag=vic_current,scores={vic_breadc=38}] villager.0 with bread 38
+item replace entity @e[tag=vic_current,scores={vic_breadc=39}] villager.0 with bread 39
+item replace entity @e[tag=vic_current,scores={vic_breadc=40}] villager.0 with bread 40
+item replace entity @e[tag=vic_current,scores={vic_breadc=41}] villager.0 with bread 41
+item replace entity @e[tag=vic_current,scores={vic_breadc=42}] villager.0 with bread 42
+item replace entity @e[tag=vic_current,scores={vic_breadc=43}] villager.0 with bread 43
+item replace entity @e[tag=vic_current,scores={vic_breadc=44}] villager.0 with bread 44
+item replace entity @e[tag=vic_current,scores={vic_breadc=45}] villager.0 with bread 45
+item replace entity @e[tag=vic_current,scores={vic_breadc=46}] villager.0 with bread 46
+item replace entity @e[tag=vic_current,scores={vic_breadc=47}] villager.0 with bread 47
+item replace entity @e[tag=vic_current,scores={vic_breadc=48}] villager.0 with bread 48
+item replace entity @e[tag=vic_current,scores={vic_breadc=49}] villager.0 with bread 49
+item replace entity @e[tag=vic_current,scores={vic_breadc=50}] villager.0 with bread 50
+item replace entity @e[tag=vic_current,scores={vic_breadc=51}] villager.0 with bread 51
+item replace entity @e[tag=vic_current,scores={vic_breadc=52}] villager.0 with bread 52
+item replace entity @e[tag=vic_current,scores={vic_breadc=53}] villager.0 with bread 53
+item replace entity @e[tag=vic_current,scores={vic_breadc=54}] villager.0 with bread 54
+item replace entity @e[tag=vic_current,scores={vic_breadc=55}] villager.0 with bread 55
+item replace entity @e[tag=vic_current,scores={vic_breadc=56}] villager.0 with bread 56
+item replace entity @e[tag=vic_current,scores={vic_breadc=57}] villager.0 with bread 57
+item replace entity @e[tag=vic_current,scores={vic_breadc=58}] villager.0 with bread 58
+item replace entity @e[tag=vic_current,scores={vic_breadc=59}] villager.0 with bread 59
+item replace entity @e[tag=vic_current,scores={vic_breadc=60}] villager.0 with bread 60
+item replace entity @e[tag=vic_current,scores={vic_breadc=61}] villager.0 with bread 61
+item replace entity @e[tag=vic_current,scores={vic_breadc=62}] villager.0 with bread 62
+item replace entity @e[tag=vic_current,scores={vic_breadc=63}] villager.0 with bread 63
+item replace entity @e[tag=vic_current,scores={vic_breadc=64}] villager.0 with bread 64
 
 # Do an equally tedious and boring method to set the item stack size as well boooooo.
 kill @s[scores={vic_breadc=0}]

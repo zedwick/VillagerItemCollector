@@ -31,70 +31,70 @@ scoreboard players operation @s vic_carrotc -= @e[tag=vic_current] vic_carrotc
 #
 
 # Do a tedious and repetitive method in order to actually set this, booooo.
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=1}] villager.1 carrot 1
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=2}] villager.1 carrot 2
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=3}] villager.1 carrot 3
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=4}] villager.1 carrot 4
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=5}] villager.1 carrot 5
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=6}] villager.1 carrot 6
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=7}] villager.1 carrot 7
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=8}] villager.1 carrot 8
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=9}] villager.1 carrot 9
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=10}] villager.1 carrot 10
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=11}] villager.1 carrot 11
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=12}] villager.1 carrot 12
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=13}] villager.1 carrot 13
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=14}] villager.1 carrot 14
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=15}] villager.1 carrot 15
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=16}] villager.1 carrot 16
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=17}] villager.1 carrot 17
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=18}] villager.1 carrot 18
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=19}] villager.1 carrot 19
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=20}] villager.1 carrot 20
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=21}] villager.1 carrot 21
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=22}] villager.1 carrot 22
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=23}] villager.1 carrot 23
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=24}] villager.1 carrot 24
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=25}] villager.1 carrot 25
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=26}] villager.1 carrot 26
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=27}] villager.1 carrot 27
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=28}] villager.1 carrot 28
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=29}] villager.1 carrot 29
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=30}] villager.1 carrot 30
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=31}] villager.1 carrot 31
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=32}] villager.1 carrot 32
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=33}] villager.1 carrot 33
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=34}] villager.1 carrot 34
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=35}] villager.1 carrot 35
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=36}] villager.1 carrot 36
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=37}] villager.1 carrot 37
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=38}] villager.1 carrot 38
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=39}] villager.1 carrot 39
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=40}] villager.1 carrot 40
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=41}] villager.1 carrot 41
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=42}] villager.1 carrot 42
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=43}] villager.1 carrot 43
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=44}] villager.1 carrot 44
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=45}] villager.1 carrot 45
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=46}] villager.1 carrot 46
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=47}] villager.1 carrot 47
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=48}] villager.1 carrot 48
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=49}] villager.1 carrot 49
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=50}] villager.1 carrot 50
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=51}] villager.1 carrot 51
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=52}] villager.1 carrot 52
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=53}] villager.1 carrot 53
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=54}] villager.1 carrot 54
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=55}] villager.1 carrot 55
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=56}] villager.1 carrot 56
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=57}] villager.1 carrot 57
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=58}] villager.1 carrot 58
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=59}] villager.1 carrot 59
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=60}] villager.1 carrot 60
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=61}] villager.1 carrot 61
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=62}] villager.1 carrot 62
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=63}] villager.1 carrot 63
-replaceitem entity @e[tag=vic_current,scores={vic_carrotc=64}] villager.1 carrot 64
+item replace entity @e[tag=vic_current,scores={vic_carrotc=1}] villager.1 with carrot 1
+item replace entity @e[tag=vic_current,scores={vic_carrotc=2}] villager.1 with carrot 2
+item replace entity @e[tag=vic_current,scores={vic_carrotc=3}] villager.1 with carrot 3
+item replace entity @e[tag=vic_current,scores={vic_carrotc=4}] villager.1 with carrot 4
+item replace entity @e[tag=vic_current,scores={vic_carrotc=5}] villager.1 with carrot 5
+item replace entity @e[tag=vic_current,scores={vic_carrotc=6}] villager.1 with carrot 6
+item replace entity @e[tag=vic_current,scores={vic_carrotc=7}] villager.1 with carrot 7
+item replace entity @e[tag=vic_current,scores={vic_carrotc=8}] villager.1 with carrot 8
+item replace entity @e[tag=vic_current,scores={vic_carrotc=9}] villager.1 with carrot 9
+item replace entity @e[tag=vic_current,scores={vic_carrotc=10}] villager.1 with carrot 10
+item replace entity @e[tag=vic_current,scores={vic_carrotc=11}] villager.1 with carrot 11
+item replace entity @e[tag=vic_current,scores={vic_carrotc=12}] villager.1 with carrot 12
+item replace entity @e[tag=vic_current,scores={vic_carrotc=13}] villager.1 with carrot 13
+item replace entity @e[tag=vic_current,scores={vic_carrotc=14}] villager.1 with carrot 14
+item replace entity @e[tag=vic_current,scores={vic_carrotc=15}] villager.1 with carrot 15
+item replace entity @e[tag=vic_current,scores={vic_carrotc=16}] villager.1 with carrot 16
+item replace entity @e[tag=vic_current,scores={vic_carrotc=17}] villager.1 with carrot 17
+item replace entity @e[tag=vic_current,scores={vic_carrotc=18}] villager.1 with carrot 18
+item replace entity @e[tag=vic_current,scores={vic_carrotc=19}] villager.1 with carrot 19
+item replace entity @e[tag=vic_current,scores={vic_carrotc=20}] villager.1 with carrot 20
+item replace entity @e[tag=vic_current,scores={vic_carrotc=21}] villager.1 with carrot 21
+item replace entity @e[tag=vic_current,scores={vic_carrotc=22}] villager.1 with carrot 22
+item replace entity @e[tag=vic_current,scores={vic_carrotc=23}] villager.1 with carrot 23
+item replace entity @e[tag=vic_current,scores={vic_carrotc=24}] villager.1 with carrot 24
+item replace entity @e[tag=vic_current,scores={vic_carrotc=25}] villager.1 with carrot 25
+item replace entity @e[tag=vic_current,scores={vic_carrotc=26}] villager.1 with carrot 26
+item replace entity @e[tag=vic_current,scores={vic_carrotc=27}] villager.1 with carrot 27
+item replace entity @e[tag=vic_current,scores={vic_carrotc=28}] villager.1 with carrot 28
+item replace entity @e[tag=vic_current,scores={vic_carrotc=29}] villager.1 with carrot 29
+item replace entity @e[tag=vic_current,scores={vic_carrotc=30}] villager.1 with carrot 30
+item replace entity @e[tag=vic_current,scores={vic_carrotc=31}] villager.1 with carrot 31
+item replace entity @e[tag=vic_current,scores={vic_carrotc=32}] villager.1 with carrot 32
+item replace entity @e[tag=vic_current,scores={vic_carrotc=33}] villager.1 with carrot 33
+item replace entity @e[tag=vic_current,scores={vic_carrotc=34}] villager.1 with carrot 34
+item replace entity @e[tag=vic_current,scores={vic_carrotc=35}] villager.1 with carrot 35
+item replace entity @e[tag=vic_current,scores={vic_carrotc=36}] villager.1 with carrot 36
+item replace entity @e[tag=vic_current,scores={vic_carrotc=37}] villager.1 with carrot 37
+item replace entity @e[tag=vic_current,scores={vic_carrotc=38}] villager.1 with carrot 38
+item replace entity @e[tag=vic_current,scores={vic_carrotc=39}] villager.1 with carrot 39
+item replace entity @e[tag=vic_current,scores={vic_carrotc=40}] villager.1 with carrot 40
+item replace entity @e[tag=vic_current,scores={vic_carrotc=41}] villager.1 with carrot 41
+item replace entity @e[tag=vic_current,scores={vic_carrotc=42}] villager.1 with carrot 42
+item replace entity @e[tag=vic_current,scores={vic_carrotc=43}] villager.1 with carrot 43
+item replace entity @e[tag=vic_current,scores={vic_carrotc=44}] villager.1 with carrot 44
+item replace entity @e[tag=vic_current,scores={vic_carrotc=45}] villager.1 with carrot 45
+item replace entity @e[tag=vic_current,scores={vic_carrotc=46}] villager.1 with carrot 46
+item replace entity @e[tag=vic_current,scores={vic_carrotc=47}] villager.1 with carrot 47
+item replace entity @e[tag=vic_current,scores={vic_carrotc=48}] villager.1 with carrot 48
+item replace entity @e[tag=vic_current,scores={vic_carrotc=49}] villager.1 with carrot 49
+item replace entity @e[tag=vic_current,scores={vic_carrotc=50}] villager.1 with carrot 50
+item replace entity @e[tag=vic_current,scores={vic_carrotc=51}] villager.1 with carrot 51
+item replace entity @e[tag=vic_current,scores={vic_carrotc=52}] villager.1 with carrot 52
+item replace entity @e[tag=vic_current,scores={vic_carrotc=53}] villager.1 with carrot 53
+item replace entity @e[tag=vic_current,scores={vic_carrotc=54}] villager.1 with carrot 54
+item replace entity @e[tag=vic_current,scores={vic_carrotc=55}] villager.1 with carrot 55
+item replace entity @e[tag=vic_current,scores={vic_carrotc=56}] villager.1 with carrot 56
+item replace entity @e[tag=vic_current,scores={vic_carrotc=57}] villager.1 with carrot 57
+item replace entity @e[tag=vic_current,scores={vic_carrotc=58}] villager.1 with carrot 58
+item replace entity @e[tag=vic_current,scores={vic_carrotc=59}] villager.1 with carrot 59
+item replace entity @e[tag=vic_current,scores={vic_carrotc=60}] villager.1 with carrot 60
+item replace entity @e[tag=vic_current,scores={vic_carrotc=61}] villager.1 with carrot 61
+item replace entity @e[tag=vic_current,scores={vic_carrotc=62}] villager.1 with carrot 62
+item replace entity @e[tag=vic_current,scores={vic_carrotc=63}] villager.1 with carrot 63
+item replace entity @e[tag=vic_current,scores={vic_carrotc=64}] villager.1 with carrot 64
 
 # Do an equally tedious and boring method to set the item stack size as well boooooo.
 kill @s[scores={vic_carrotc=0}]

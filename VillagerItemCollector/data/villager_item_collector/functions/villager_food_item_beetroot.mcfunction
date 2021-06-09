@@ -31,70 +31,70 @@ scoreboard players operation @s vic_beetrootc -= @e[tag=vic_current] vic_beetroo
 #
 
 # Do a tedious and repetitive method in order to actually set this, booooo.
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=1}] villager.3 beetroot 1
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=2}] villager.3 beetroot 2
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=3}] villager.3 beetroot 3
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=4}] villager.3 beetroot 4
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=5}] villager.3 beetroot 5
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=6}] villager.3 beetroot 6
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=7}] villager.3 beetroot 7
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=8}] villager.3 beetroot 8
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=9}] villager.3 beetroot 9
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=10}] villager.3 beetroot 10
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=11}] villager.3 beetroot 11
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=12}] villager.3 beetroot 12
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=13}] villager.3 beetroot 13
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=14}] villager.3 beetroot 14
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=15}] villager.3 beetroot 15
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=16}] villager.3 beetroot 16
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=17}] villager.3 beetroot 17
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=18}] villager.3 beetroot 18
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=19}] villager.3 beetroot 19
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=20}] villager.3 beetroot 20
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=21}] villager.3 beetroot 21
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=22}] villager.3 beetroot 22
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=23}] villager.3 beetroot 23
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=24}] villager.3 beetroot 24
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=25}] villager.3 beetroot 25
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=26}] villager.3 beetroot 26
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=27}] villager.3 beetroot 27
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=28}] villager.3 beetroot 28
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=29}] villager.3 beetroot 29
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=30}] villager.3 beetroot 30
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=31}] villager.3 beetroot 31
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=32}] villager.3 beetroot 32
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=33}] villager.3 beetroot 33
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=34}] villager.3 beetroot 34
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=35}] villager.3 beetroot 35
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=36}] villager.3 beetroot 36
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=37}] villager.3 beetroot 37
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=38}] villager.3 beetroot 38
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=39}] villager.3 beetroot 39
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=40}] villager.3 beetroot 40
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=41}] villager.3 beetroot 41
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=42}] villager.3 beetroot 42
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=43}] villager.3 beetroot 43
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=44}] villager.3 beetroot 44
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=45}] villager.3 beetroot 45
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=46}] villager.3 beetroot 46
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=47}] villager.3 beetroot 47
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=48}] villager.3 beetroot 48
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=49}] villager.3 beetroot 49
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=50}] villager.3 beetroot 50
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=51}] villager.3 beetroot 51
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=52}] villager.3 beetroot 52
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=53}] villager.3 beetroot 53
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=54}] villager.3 beetroot 54
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=55}] villager.3 beetroot 55
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=56}] villager.3 beetroot 56
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=57}] villager.3 beetroot 57
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=58}] villager.3 beetroot 58
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=59}] villager.3 beetroot 59
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=60}] villager.3 beetroot 60
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=61}] villager.3 beetroot 61
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=62}] villager.3 beetroot 62
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=63}] villager.3 beetroot 63
-replaceitem entity @e[tag=vic_current,scores={vic_beetrootc=64}] villager.3 beetroot 64
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=1}] villager.3 with beetroot 1
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=2}] villager.3 with beetroot 2
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=3}] villager.3 with beetroot 3
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=4}] villager.3 with beetroot 4
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=5}] villager.3 with beetroot 5
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=6}] villager.3 with beetroot 6
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=7}] villager.3 with beetroot 7
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=8}] villager.3 with beetroot 8
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=9}] villager.3 with beetroot 9
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=10}] villager.3 with beetroot 10
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=11}] villager.3 with beetroot 11
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=12}] villager.3 with beetroot 12
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=13}] villager.3 with beetroot 13
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=14}] villager.3 with beetroot 14
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=15}] villager.3 with beetroot 15
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=16}] villager.3 with beetroot 16
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=17}] villager.3 with beetroot 17
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=18}] villager.3 with beetroot 18
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=19}] villager.3 with beetroot 19
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=20}] villager.3 with beetroot 20
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=21}] villager.3 with beetroot 21
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=22}] villager.3 with beetroot 22
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=23}] villager.3 with beetroot 23
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=24}] villager.3 with beetroot 24
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=25}] villager.3 with beetroot 25
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=26}] villager.3 with beetroot 26
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=27}] villager.3 with beetroot 27
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=28}] villager.3 with beetroot 28
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=29}] villager.3 with beetroot 29
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=30}] villager.3 with beetroot 30
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=31}] villager.3 with beetroot 31
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=32}] villager.3 with beetroot 32
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=33}] villager.3 with beetroot 33
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=34}] villager.3 with beetroot 34
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=35}] villager.3 with beetroot 35
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=36}] villager.3 with beetroot 36
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=37}] villager.3 with beetroot 37
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=38}] villager.3 with beetroot 38
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=39}] villager.3 with beetroot 39
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=40}] villager.3 with beetroot 40
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=41}] villager.3 with beetroot 41
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=42}] villager.3 with beetroot 42
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=43}] villager.3 with beetroot 43
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=44}] villager.3 with beetroot 44
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=45}] villager.3 with beetroot 45
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=46}] villager.3 with beetroot 46
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=47}] villager.3 with beetroot 47
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=48}] villager.3 with beetroot 48
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=49}] villager.3 with beetroot 49
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=50}] villager.3 with beetroot 50
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=51}] villager.3 with beetroot 51
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=52}] villager.3 with beetroot 52
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=53}] villager.3 with beetroot 53
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=54}] villager.3 with beetroot 54
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=55}] villager.3 with beetroot 55
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=56}] villager.3 with beetroot 56
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=57}] villager.3 with beetroot 57
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=58}] villager.3 with beetroot 58
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=59}] villager.3 with beetroot 59
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=60}] villager.3 with beetroot 60
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=61}] villager.3 with beetroot 61
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=62}] villager.3 with beetroot 62
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=63}] villager.3 with beetroot 63
+item replace entity @e[tag=vic_current,scores={vic_beetrootc=64}] villager.3 with beetroot 64
 
 # Do an equally tedious and boring method to set the item stack size as well boooooo.
 kill @s[scores={vic_beetrootc=0}]
