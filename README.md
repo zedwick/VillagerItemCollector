@@ -7,6 +7,11 @@ This datapack simulates villagers picking up food items by checking for these it
 
 *Originally created by Dax23333 and Zedwick for [Zedwork](https://zedwork.co.uk).*
 
+## Which version to use?
+
+[v1.1](https://github.com/zedwick/VillagerItemCollector/releases/tag/v1.1): MC 1.14.4-1.6.5
+[v1.2](https://github.com/zedwick/VillagerItemCollector/releases/tag/v1.2): MC 1.17+
+
 ## Installation
 
 1. [Download this repository as a zip archive](https://github.com/zedwick/VillagerItemCollector/archive/master.zip)
