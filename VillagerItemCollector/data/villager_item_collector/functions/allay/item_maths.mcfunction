@@ -14,16 +14,26 @@ execute as @e[tag=vic_current,limit=1] store result score @s vic_breadc run data
 # Also obtain size of item stack.
 execute store result score @s vic_breadc run data get entity @s Item.Count 1
 
-# Now we have the item stack size of both allay and item in the scoreboard. Do operations.
-#Will need to account for items that do not stack to 64
+## Now we have the item stack size of both allay and item in the scoreboard. Do operations.
+# TODO: Will need to account for items that do not stack to 64
+#
+# Add Item vic_breadc score to allay vic_breadc score
 scoreboard players operation @e[tag=vic_current,limit=1] vic_breadc += @s vic_breadc
+# Set total vic_breadc score to allay's vic_breadc score (total of allay + item count)
 scoreboard players operation total vic_breadc = @e[tag=vic_current] vic_breadc
+# Set over vic_breadc score to Allay's vic_breadc score (total of allay + item count)
 scoreboard players operation over vic_breadc = @e[tag=vic_current] vic_breadc
+# Remove 64 from over_vic_breadc score
 scoreboard players operation over vic_breadc -= 64 vic_constants
+# Sets over vic_breadc to 0 only if over is less than 0
 scoreboard players operation over vic_breadc > 0 vic_constants
+# Remove over vic_breadc from Allay's vic_breadc score (if allay's vic_breadc score is over 64, reduce it down to our maximum stack size of 64)
 scoreboard players operation @e[tag=vic_current,limit=1] vic_breadc -= over vic_breadc
+# Remove over vic_breadc from Item's vic_breadc score
 scoreboard players operation @s vic_breadc -= over vic_breadc
+# Set Iem's vic_breadc score to total vic_breadc
 scoreboard players operation @s vic_breadc = total vic_breadc
+# Remove Allay's vic_breadc score from Item's vic_breadc score
 scoreboard players operation @s vic_breadc -= @e[tag=vic_current,limit=1] vic_breadc
 #scoreboard players set over vic_breadc 0
 
