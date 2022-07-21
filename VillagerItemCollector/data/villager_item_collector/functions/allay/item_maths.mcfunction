@@ -17,6 +17,8 @@ execute store result score @s vic_breadc run data get entity @s Item.Count 1
 ## Now we have the item stack size of both allay and item in the scoreboard. Do operations.
 # TODO: Will need to account for items that do not stack to 64
 #
+# Save the original Allay's inventory count to use later
+scoreboard players operation inv vic_breadc = @e[tag=vic_current,limit=1] vic_breadc
 # Add Item vic_breadc score to allay vic_breadc score
 scoreboard players operation @e[tag=vic_current,limit=1] vic_breadc += @s vic_breadc
 # Set total vic_breadc score to allay's vic_breadc score (total of allay + item count)
@@ -48,12 +50,20 @@ function villager_item_collector:allay/copy_allay_item_to_working
 say pre-setting item entity Count
 function villager_item_collector:debug/allay_and_item
 
+## Remove Allay's vic_breadc score from Item's vic_breadc score
+# 
+# Workaround: when setting the item in slot 0 of an allay it will not overwrite the old item, but will instead add their counts together.
+# So we must set our new item's count to be the just the amount we need to add to the old count.
+# 
+execute if data entity @e[tag=vic_current,limit=1] Inventory[0] run scoreboard players operation @e[tag=vic_current,limit=1] vic_breadc -= inv vic_breadc
+
 # Set item count in working storage location
-execute store result storage villageritemcollector:allay working.Count int 1.0 run scoreboard players get @e[tag=vic_current,limit=1] vic_breadc
+execute store result storage villageritemcollector:allay working.Count byte 1.0 run scoreboard players get @e[tag=vic_current,limit=1] vic_breadc
 
 # Copy working item to allay inventory
-data remove entity @e[tag=vic_current,limit=1] Inventory[0]
-data modify entity @e[tag=vic_current,limit=1] Inventory append from storage villageritemcollector:allay working
+#data remove entity @e[tag=vic_current,limit=1] Inventory[0]
+execute unless data entity @e[tag=vic_current,limit=1] Inventory[0] run data modify entity @e[tag=vic_current,limit=1] Inventory append from storage villageritemcollector:allay working
+execute if data entity @e[tag=vic_current,limit=1] Inventory[0] run data modify entity @e[tag=vic_current,limit=1] Inventory set from storage villageritemcollector:allay working
 
 # Debug
 say Post-setting item entity Count
