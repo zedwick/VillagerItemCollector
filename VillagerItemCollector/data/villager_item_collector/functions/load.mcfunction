@@ -16,6 +16,9 @@ scoreboard objectives add vic_potatoc dummy
 # Beetroot count objective.
 scoreboard objectives add vic_beetrootc dummy
 
+# vic_success objective.
+scoreboard objectives add vic_success dummy
+
 # Constant values for use in scoreboard operations
 scoreboard objectives add vic_constants dummy
 scoreboard players set 64 vic_constants 64
@@ -29,3 +32,5 @@ scoreboard players set 0 vic_constants 0
 # This function will schedule itself to run repeatedly after this.
 #
 schedule function villager_item_collector:check_all_villagers 10s
+#
+schedule function villager_item_collector:allay/check_all_allays 11s
